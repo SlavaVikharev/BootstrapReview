@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="shower/themes/material/styles/screen-4x3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body class="shower list">
+  <header class="caption">
+    <h2>Про Bootstrap крч</h2>
+    <p>Слава Вихарев</p>
+  </header>
+
+  <section class="slide" id="bootstrap">
+    <h2 class="place">Bootstrap</h2>
+
+    <style>
+      #bootstrap {
+        background: #563d7c;
+      }
+
+      #bootstrap h2 {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 8em;
+      }
+    </style>
+  </section>
+
+  <section class="slide">
+    <ul class="slide-ul">
+      <li>Чёйта?</li>
+      <li class="next">Это CSS-фреймворк</li>
+      <li class="next">Ну ок, а это че?</li>
+      <li class="next">Библиотека стилей</li>
+      <li class="next">Аааа..<span class="next"> Не, не понял</span></li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2 class="slide-header">Таблица на чистом HTML</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7">
+          <pre>
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Cell 1.1&lt;/td&gt;
+        &lt;td&gt;Cell 1.2&lt;/td&gt;
+      &lt;/tr&gt;
+      ...
+      &lt;tr&gt;
+        &lt;td&gt;Cell n.1&lt;/td&gt;
+        &lt;td&gt;Cell n.2&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+          </pre>
+        </div>
+        <div class="col-sm-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cell 1.1</td>
+                <td>Cell 1.2</td>
+              </tr>
+              <tr>
+                <td>Cell 2.1</td>
+                <td>Cell 2.2</td>
+              </tr>
+              <tr>
+                <td>Cell 3.1</td>
+                <td>Cell 3.2</td>
+              </tr>
+              <tr>
+                <td>Cell 4.1</td>
+                <td>Cell 4.2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <h2 class="slide-header">А это с Bootstrap</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7">
+          <pre>
+  &lt;table <mark>class="table"</mark>&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Cell 1.1&lt;/td&gt;
+        &lt;td&gt;Cell 1.2&lt;/td&gt;
+      &lt;/tr&gt;
+      ...
+      &lt;tr&gt;
+        &lt;td&gt;Cell n.1&lt;/td&gt;
+        &lt;td&gt;Cell n.2&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+          </pre>
+        </div>
+        <div class="col-sm-5">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cell 1.1</td>
+                <td>Cell 1.2</td>
+              </tr>
+              <tr>
+                <td>Cell 2.1</td>
+                <td>Cell 2.2</td>
+              </tr>
+              <tr>
+                <td>Cell 3.1</td>
+                <td>Cell 3.2</td>
+              </tr>
+              <tr>
+                <td>Cell 4.1</td>
+                <td>Cell 4.2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <h2 class="slide-header">Добавим еще один класс...</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7">
+          <pre>
+  &lt;table class="table <mark>table-striped</mark>"&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Cell 1.1&lt;/td&gt;
+        &lt;td&gt;Cell 1.2&lt;/td&gt;
+      &lt;/tr&gt;
+      ...
+      &lt;tr&gt;
+        &lt;td&gt;Cell n.1&lt;/td&gt;
+        &lt;td&gt;Cell n.2&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+          </pre>
+        </div>
+        <div class="col-sm-5">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cell 1.1</td>
+                <td>Cell 1.2</td>
+              </tr>
+              <tr>
+                <td>Cell 2.1</td>
+                <td>Cell 2.2</td>
+              </tr>
+              <tr>
+                <td>Cell 3.1</td>
+                <td>Cell 3.2</td>
+              </tr>
+              <tr>
+                <td>Cell 4.1</td>
+                <td>Cell 4.2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <h2 class="slide-header">"А откудова эти классы брать?"</h2>
+
+    <p>У Bootstrap есть сайт (о_О)</p>
+    <p><a href="https://getbootstrap.com/">https://getbootstrap.com/</a></p>
+
+    <p>На этом сайте есть разделы "CSS", "Components"</p>
+    <p>На них расположено всё, что можно использовать</p>
+  </section>
+
+  <section class="slide">
+    <h2 class="slide-header">Bootstrap нужно подключить</h2>
+
+    <p>
+      Так как Bootstrap - это просто два файла .css и .js,
+      то добавляем ссылки на них и радуемся
+    </p>
+
+    <p><code>&lt;link rel="stylesheet" href="css/bootstrap.min.css"&gt;</code></p>
+    <p><code>&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;</code></p>
+  </section>
+
+  <section class="slide">
+    <h2 class="slide-header">Например, примеры</h2>
+    <ul>
+      <li class="next"><a href="https://ulearn.me/">https://ulearn.me/</a></li>
+      <li class="next"><a href="http://anytask.urgu.org/">http://anytask.urgu.org/</a></li>
+      <li class="next"><a href="http://anytask.org/">http://anytask.org/</a></li>
+      <li class="next"><a href="http://pytask.info/">http://pytask.info/</a></li>
+    </ul>
+  </section>
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="shower/shower.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
